@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inner",sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+    background-color:#ffffff ;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+a{
+    text-decoration: none;
+    color: #575757;
+}
+.common-btn{
+    background-color:#1d4ed8 ;
+    padding: 2px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.common-btn:hover{
+    cursor: pointer;
+    background-color: #2a3249;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content{
+    color: white;
+    display: grid;
+    gap: 20px;
+}
+.banner-content h2{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "inter",sans-serif;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "inter",sans-serif;
+}
+.banner-content button{
+    width: 25%;
+    margin-left: 38%;
+    padding: 10px 0;
+    margin-top: 300px;
+}
+.meet-card{
+    padding: 80px 8%;
+}
+.meet-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.meet-card h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "inner",sans-serif;
+    margin-bottom: 50px;
+}
+.meet-card-container > div{
+    border: 1px solid #e5e7ebFF;
+    padding: 0;
+    border-radius: 12px;
+}
+.meet-card img{
+    width: 100%;
+    display: block;
+}
+.meet-card h5{
+    padding-left: 24px;
+    padding-top: 10px;
+    color: #2563eb;
+}
+.meet-card h4{
+    color: #0d1b2a;
+    padding-left: 24px ;
+    padding-top: 10px;
+}
+.meet-card p{
+    color: #575757;
+    padding-left: 24px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.your-spot{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.your-spot h2 {
+    text-align: center;
+    font-size: 48px;
+}
+.your-spot h3{
+    text-align: center;
+    padding-top: 10px;
+    color:#575757 ;
+    font-size: 16px;
+}
+
+.your-spot-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 24px; 
+    padding: 40px 12%;
+}
+
+.your-spot-card{
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 25px;
+    background-color: #ffffff;
+    color: #888888FF;
+}
+.your-spot-card h4{
+    font-size: 44px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.your-spot-card h5{
+    padding-bottom: 20px;
+}
+.pro-card{
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+.pro-card li::marker{
+    color:#93c5fdFF; ;
+}
+.your-spot-card >li{
+    margin: 12px;
+    row-gap: 10px;
+    font-size: 14px;
+}
+.contact-card{
+    background-color: #e5e7eb;
+}
+.standard-common-btn{
+    padding: 10px 50px;
+    border-color:  rgb(126, 166, 253);
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: blue;
+    width: 100%;
+}
+.pro-common-btn{
+    background-color: #2563eb;
+    width: 100%;
+    padding: 10px 50px;
+    border-radius:8px ;
+    border: none;
+}
+.contact-common-btn{
+    padding: 10px 50px;
+    border-color:  #0d1b2a;
+    border-radius: 8px;
+    color: black;
+    width: 100%;
+}
+footer{
+    background-color: #1e1e1e;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: #888888FF;
+}
+.footer-content{
+    display: flex;
+    gap: 20px;
+}
